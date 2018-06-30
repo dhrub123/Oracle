@@ -36,3 +36,13 @@ create table dhrub123.employee(
 5)Create public synonym on table
 CREATE PUBLIC SYNONYM emp
 FOR dhrub123.employee;
+
+-----------------------------------------
+To get ORACLE_HOME value : 
+sqlplus / as sysdba
+
+There's a system stored procedure called get_env for retrieving the value for ORACLE_HOME
+
+SQL > var OHM varchar2(100);
+SQL > EXEC dbms_system.get_env('ORACLE_HOME', :OHM) ;
+SQL > PRINT OHM
