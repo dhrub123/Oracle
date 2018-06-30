@@ -6,3 +6,7 @@ XE =
       (SERVICE_NAME = XE)
     )
   )
+  
+  
+jdbc:oracle:thin:@<hostName>:<portNumber>:<sid>;  (if you have sid)
+jdbc:oracle:thin:@//<hostName>:<portNumber>/serviceName; (if you have oracle service name)
