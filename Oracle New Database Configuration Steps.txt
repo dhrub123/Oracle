@@ -46,3 +46,6 @@ There's a system stored procedure called get_env for retrieving the value for OR
 SQL > var OHM varchar2(100);
 SQL > EXEC dbms_system.get_env('ORACLE_HOME', :OHM) ;
 SQL > PRINT OHM
+------------------------------------------
+To get TNS ORA location
+$ORACLE_HOME(C:\oraclexe\app\oracle\product\11.2.0\server)\network\ADMIN
