@@ -7,7 +7,7 @@ passwd SYSTEM
 ----------------------------------------------
 To create schema create user : https://www.techonthenet.com/oracle/schemas/create_schema.php
 
-1)Create User : 
+1)Create new User : 
 CREATE USER dhrub123
   IDENTIFIED BY comamndo9;
   
